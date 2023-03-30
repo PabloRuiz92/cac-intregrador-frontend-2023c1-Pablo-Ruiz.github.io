@@ -1,5 +1,8 @@
 .intro {
-    background: url(../IMG/ba1.jpg) no-repeat;
+    background-image: url('../IMG/ba1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .footer {
