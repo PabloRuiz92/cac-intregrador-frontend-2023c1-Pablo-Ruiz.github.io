@@ -2,7 +2,10 @@
     background-image: url('../IMG/ba1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+
+.cartaOrador {
+    padding: 0;
 }
 
 .footer {
