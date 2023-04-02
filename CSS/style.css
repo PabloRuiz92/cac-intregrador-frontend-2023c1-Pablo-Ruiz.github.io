@@ -15,6 +15,11 @@
     text-decoration-style: dotted;
 }
 
+.botonForm {
+    background-color: #96C93E;
+    color: white;
+}
+
 footer {
     background-image: linear-gradient(to right, #1F3946, #1E5371)
 }
