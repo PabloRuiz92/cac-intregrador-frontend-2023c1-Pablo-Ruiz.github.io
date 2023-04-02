@@ -10,6 +10,11 @@
     margin-right: 15%;
 }
 
+.subrayado {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
 footer {
     background-image: linear-gradient(to right, #1F3946, #1E5371)
 }

@@ -119,7 +119,8 @@
   </div>
 
   <!------------------------------------- "Bs As obtubre" --------------------------------->
-  <div class="container-fluid ps-0">
+
+  <section class="container-fluid ps-0">
     <div class="row">
       
       <img src="IMG/honolulu.jpg" alt="Honolulu" class="img-fluid px-0 col-sm-6">
@@ -129,18 +130,33 @@
         <button class="btn btn-outline-light" type="button">Conocé más</button>
       </div>
     </div>
-  </div>
+  </section>
 
   <!------------------------------------- FORM -------------------------------------------->
 
-  <div class="container">
-    <h3>CONVIERTETE EN UN</h3>
+  <section class="container text-center my-3">
+    <h5>CONVIERTETE EN UN</h5>
     <h1>ORADOR</h1>
-    <h3>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h3>
-  </div>
+    <h6>Anótate como orador para dar una <span class="subrayado">charla ignite</span>. Cuéntanos de qué quieres hablar!</h6>
+    <form>
+      <div class="row mb-2">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" name="apellido">
+        </div>
+      </div>
+      <textarea class="form-control" rows="5" id="temaCharla" name="tema" placeholder="Sobre qué quieres hablar?"></textarea>
+      <h6 class="text-start text-muted">Recuerda incluir un título para tu charla</h6>
+      <div class="d-grid">
+        <button type="submit" class="btn btn-success btn-block">Enviar</button>
+      </div>  
+    </form> 
+  </section>
 
   <!------------------------------------- FOOTER ------------------------------------------>
-  
+
   <footer class="container-fluid mt-5 p-4 text-white text-center">
     <div class="container row">
       <h6 class="col-sm-1">Preguntas frecuentes</h6>
