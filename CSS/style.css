@@ -2,12 +2,11 @@
 .marco {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../IMG/ba1.jpg');
     background-size: cover;
-    height: 125vh;
+    height: 100vh;
 } 
 
 .cuadroTexto{
-    margin-top: 35%;
-    margin-right: 15%;
+    margin-bottom: 5%;
 }
 
 .subrayado {
