@@ -1,9 +1,9 @@
 let clickSubmit=document.getElementById("btnSubmit");
 
 clickSubmit.addEventListener("click",()=>{
-    document.getElementById("valorFinal").innerText = document.getElementById("cantidad").value;
-});
-
-clickScore1.addEventListener("click",()=>{
-    document.getElementById("cantidad").innerText = document.getElementById("btnScore1").value;
+    let ticket = 200;
+    let cantidadTickets = document.getElementById("cantidadTickets").value;
+    let porcentaje = document.getElementById("categoria").value;
+    let ticketConDescuento = ticket - ((porcentaje * ticket)/100);
+    document.getElementById("valorFinal").innerText = ticketConDescuento*cantidadTickets;
 });
