@@ -16,6 +16,16 @@
     width: 100%;
 }
 
+#infoValorFinal{
+    background-color: #CCE5FF;
+    border-color: #B8DAFF;
+    color: #0040A5;
+}
+
+#advertencia{
+    visibility: hidden;
+}
+
 footer {
     background-image: linear-gradient(to right, #1F3946, #1E5371)
 }

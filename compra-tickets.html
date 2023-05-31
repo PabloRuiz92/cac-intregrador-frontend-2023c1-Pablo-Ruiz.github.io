@@ -132,11 +132,12 @@
             <div class="col">
                 <label for="Categoria">Cantidad</label>
               <input
-                type="text"
+                type="number"
                 class="form-control"
                 placeholder="Cantidad"
                 name="cantidad"
                 id="cantidadTickets"
+                min="1"
               />
             </div>
             <div class="col">
@@ -149,17 +150,20 @@
                 </select> 
             </div>
         </div>
-        <div class="container bg-info border rounded pt-2 mb-2 text-primary text-start">
+        <div id="infoValorFinal" class="container border rounded pt-2 mb-2 text-start">
             <h5>Total a Pagar: $<span id="valorFinal"></span></h5>
         </div>
         <div class="row">
             <div class="col-md-6 mb-1">
-            <button type="reset" class="btn btn-block botonForm">Borrar</button>
+            <button type="reset" id="btnReset" class="btn btn-block botonForm">Borrar</button>
             </div>
             <div class="col-md-6">
             <button type="button" id="btnSubmit" class="btn btn-block botonForm">Resumen</button>
             </div>
         </div>
+        <div id="advertencia" class="container pt-2 mb-2 text-danger text-start">
+          <h5>*Uno o mas ingresos no validos o vacios, por favor intente de nuevo.</h5>
+      </div>
       </form>
     </section>
 
