@@ -8,6 +8,7 @@ clickSubmit.addEventListener("click",()=>{
         let porcentaje = document.getElementById("categoria").value;
         let ticketConDescuento = descuentoPorPorcentaje(ticket,porcentaje);
         document.getElementById("valorFinal").innerText = ticketConDescuento*cantidadTickets;
+        document.getElementById("advertencia").style.visibility="hidden";
     } else {
         document.getElementById("advertencia").style.visibility="visible";
     }
